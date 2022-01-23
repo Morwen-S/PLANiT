@@ -1,0 +1,47 @@
+//FADE
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+//SLIDE BOTTOM TO TOP
+.app-slide-fade-enter-active {
+  transition: all 0.1s ease-out;
+}
+
+.app-slide-fade-leave-active {
+  transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.app-slide-fade-enter-from,
+.app-slide-fade-leave-to {
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+.flip-list-move {
+  transition: all 0.3s ease;
+}
+
+//LIST ANIMATION
+.list-complete-item {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.list-complete-enter-from,
+.list-complete-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.list-complete-leave-active {
+  position: absolute;
+}
+
+

@@ -1,0 +1,43 @@
+.headline {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.secondary-font {
+  color: $secondary-color;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-font {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.body-font {
+  font-size: 14px;
+  font-weight: 400;
+}
+.is-checked-font {
+  text-decoration: line-through;
+}
+
+@media (max-width: 600px) {
+  .headline {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .title {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .body-font {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

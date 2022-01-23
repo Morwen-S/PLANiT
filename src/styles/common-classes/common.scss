@@ -1,0 +1,41 @@
+@import "./fonts";
+@import "./animations";
+
+html, input, textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+  -webkit-appearance: none;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
